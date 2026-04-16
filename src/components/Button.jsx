@@ -6,8 +6,7 @@ function Button({ children, onClick, variant = "primary" }) {
   const base = "px-3.5 py-1.5 rounded-md text-white font-bold size-max shrink-0";
 
   const styles = {
-    primary: "bg-p-green-700 hover:bg-p-green-800",
-    danger: "bg-slate-400 hover:bg-slate-500",
+    delete: "bg-slate-400 hover:bg-slate-500",
   };
 
   const addGradient = {

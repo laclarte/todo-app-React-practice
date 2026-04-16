@@ -25,7 +25,7 @@ const preview = {
       <div style={{
         minHeight: '100vh',
         width: '100%',
-        background: 'linear-gradient(135deg, #a8c5e8 0%, #c5d9ee 50%, #d4e8f0 100%)',
+        background: 'linear-gradient(135deg, #e4ecf5 0%, #95b3d8 100%)',
         padding: '24px',
         boxSizing: 'border-box',
       }}>
