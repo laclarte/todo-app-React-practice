@@ -28,16 +28,16 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col justify-stretch mx-auto w-[85%]">
+    <div className="flex flex-col justify-stretch mx-auto w-[92%] md:w-[85%]">
       <h1 className="text-[48px] font-bold text-slate-700 pt-14 pb-8">ToDo List</h1>
-      <div className="flex justify-center mx-6">
+      <div className="flex justify-center">
         <TodoInput
           inputValue={inputValue}
           setInputValue={setInputValue}
           onAdd={handleAdd}
         />
       </div>
-      <ul className="flex justify-center px-6">
+      <ul className="flex justify-center">
         <TodoList
           todos={todos}
           onToggle={handleToggle}
