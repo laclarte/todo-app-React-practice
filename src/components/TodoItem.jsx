@@ -76,7 +76,7 @@ function TodoItem({ todo, onToggle, onDelete, isDragOverlay }) {
         {todo.text}
       </span>
 
-      <Button onClick={() => onDelete(todo.id)} variant="danger">削除</Button>
+      <Button onClick={() => onDelete(todo.id)} variant="delete">削除</Button>
     </li>
   );
 }
