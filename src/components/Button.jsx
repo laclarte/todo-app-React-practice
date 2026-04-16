@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Button({ children, onClick, variant = "primary" }) {
+function Button({ children, onClick, variant = "delete" }) {
   const [isHovered, setIsHovered] = useState(false);
 
   const base = "px-3.5 py-1.5 rounded-md text-white font-bold size-max shrink-0";
